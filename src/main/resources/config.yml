@@ -1,7 +1,8 @@
-#items: TYPE,QUANTITY,int %CHANCE(total ~= 100),DURABILITY(optional)
-#potions: TYPE,DURATION(seconds),AMPLIFIER
-#xp: level to give and amount of lapis gived (-1 -> random between 1 and 3)
-#potions: TYPE,level,boolean extend,boolean splash
+#items: TYPE,(int)QUANTITY,(int) %CHANCE(total ~= 100), [(short)DURABILITY -> optional]
+#potions: TYPE,(seconds)DURATION,(int)AMPLIFIER
+#xp: (int) level to give and amount of lapis gived (-1 -> random between 1 and 3)
+#potions: TYPE, (int) level, (boolean) extend, (boolean) splash
+#entity: TYPE, (int) %CHANCE
 DIAMOND_ORE:
   items:
     - DIAMOND_HELMET,1,20
