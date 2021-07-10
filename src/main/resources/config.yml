@@ -48,4 +48,4 @@ GOLD_ORE:
     - INSTANT_HEAL,1,false,true
     - INSTANT_DAMAGE,1,false,true
   entity:
-    - CREEPER, 20
+    - CREEPER,20
