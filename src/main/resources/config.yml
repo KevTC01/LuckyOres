@@ -47,9 +47,4 @@ GOLD_ORE:
     - INSTANT_HEAL,1,false,true
     - INSTANT_DAMAGE,1,false,true
   entity:
-    - CREEPER
-OBSIDIAN:
-  items:
-    - STICK,1,100
-  entity:
-    - CREEPER
+    - CREEPER, 20
