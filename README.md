@@ -1,0 +1,2 @@
+# LuckyOres
+ Minecraft plugin LuckyOres

@@ -1,0 +1,5 @@
+name: LuckyOres
+version: ${project.version}
+main: fr.kevtc.luckyores.LuckyOres
+authors: [ KevTC ]
+description: Chnage loots of ores
